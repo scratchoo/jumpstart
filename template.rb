@@ -34,7 +34,7 @@ def rails_6?
 end
 
 def add_gems
-  gem 'superuser', :git => 'git://github.com/scratchoo/superuser.git', :branch => 'pagy-pagination'
+  gem 'superuser', git: 'git://github.com/scratchoo/superuser.git', branch: 'pagy-pagination'
   gem 'bootstrap', '~> 4.3', '>= 4.3.1'
   #gem 'devise', '~> 4.6', '>= 4.6.1'
   gem 'devise', git: 'https://github.com/plataformatec/devise'
